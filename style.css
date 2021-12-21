@@ -1,0 +1,66 @@
+ .perfil{
+    height: 45%;
+  width: 45%;
+ 
+  border-radius: 50%;
+
+
+}
+
+h1 #nombre {
+    text-decoration:solid;
+}
+.iconos{
+    height: 35%;
+    width: 35%;
+    margin-left: 30%;
+    margin-right: 50%;
+    border-radius: 50%;
+    padding-bottom: 5%;
+    
+
+}
+.iconos:hover{
+    animation-name: animacion_a_hover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    box-shadow: 1px 1px 3px #722929;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+h2.tm-welcome-title {
+    color: black;
+}
+
+p.pb-0 {
+    color: black;
+}
+button.accordion-button {
+    border: none;
+}
+img.tm-portfolio-name.trabajos {
+    padding: 0 !important;
+}
+
+img.tm-portfolio-name.trabajos:hover {
+   border: #722929 solid 1px;
+   box-shadow: 1px 1px 3px #722929;
+}
+
+
+
+@keyframes animacion_a_hover {
+    to {
+        opacity: 0.5;
+        padding: 10px;
+        bottom: 1px;
+        right: 1px;
+        box-shadow: 1px 1px 8px #505F4C;
+    }
+}
